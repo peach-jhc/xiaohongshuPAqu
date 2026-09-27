@@ -13,6 +13,7 @@ def is_yes(value):
     return value.strip().lower() in {"是", "true", "1", "yes", "y"}
 
 
+print("吉航程变得很有钱")
 def settings():
     cfg = ConfigParser()
     cfg.read(HERE / "config.txt", encoding="utf-8-sig")
